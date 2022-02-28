@@ -204,7 +204,7 @@ img{
 	font-size: 2.5rem;
 	font-weight: 600;
 	color: yellow;
-	max-width: 350px;
+	max-width: 48rem;
 	margin: 1rem 0rem;
 }
 @media screen and (min-width: 768px){
@@ -272,7 +272,7 @@ main{
 		background-color: rgba(241, 64, 0, 0.774);
 		text-align: center;
 		padding: 5px;
-		margin: auto;
+		margin: 98%;
 		font-family: 'quadrinhos';
 		width: 98%;
 	  }
