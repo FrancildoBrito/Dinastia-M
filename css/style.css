@@ -272,9 +272,9 @@ main{
 		background-color: rgba(241, 64, 0, 0.774);
 		text-align: center;
 		padding: 5px;
-		margin: 98%;
 		font-family: 'quadrinhos';
 		width: 98%;
+		margin: auto;
 	  }
 	  footer > p{
 		  font-size: 2.4rem;
