@@ -88,7 +88,7 @@ img{
 	color: orangered;
 	cursor: pointer;
 	transition: var(--transition);
-	padding-right: 2.4rem;
+	padding-right: .8rem;
 }
 .navbar-header__toggle:hover{
 	transform: scale(1.2);
@@ -220,7 +220,7 @@ img{
 Sobre
 ///////*/
 #principal{
-	max-width: 90rem;
+	max-width: 98rem;
 	font-family: 'quadrinhos';
 	box-shadow: var(--dark-shadow);
 	margin: auto;
