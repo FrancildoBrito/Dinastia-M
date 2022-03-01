@@ -228,6 +228,7 @@ Sobre
 	
 }
 #sobre, #compras{
+	max-width: 79rem;
     align-items: center;
     margin: auto;
 	padding: 3.8rem;
