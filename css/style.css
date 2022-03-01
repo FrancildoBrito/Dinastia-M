@@ -88,7 +88,7 @@ img{
 	color: orangered;
 	cursor: pointer;
 	transition: var(--transition);
-	padding-right: 1.8rem;
+	padding-right: 2.4rem;
 }
 .navbar-header__toggle:hover{
 	transform: scale(1.2);
@@ -220,7 +220,7 @@ img{
 Sobre
 ///////*/
 #principal{
-	max-width: 80rem;
+	max-width: 90rem;
 	font-family: 'quadrinhos';
 	box-shadow: var(--dark-shadow);
 	margin: auto;
@@ -228,7 +228,6 @@ Sobre
 	
 }
 #sobre, #compras{
-	max-width: 79rem;
     align-items: center;
     margin: auto;
 	padding: 3.8rem;
@@ -255,12 +254,10 @@ Sobre
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: space-between;
+	padding: 1.2rem;
 	background-color: rgb(230, 210, 210);
 }
-	iframe{
-		padding: 1.2rem;
-	}
-
 	footer{
 		background-color: rgba(241, 64, 0, 0.774);
 		text-align: center;
