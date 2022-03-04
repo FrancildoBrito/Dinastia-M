@@ -71,7 +71,7 @@ img{
 //////////////*/
 .navbar{
 	position: fixed;
-	background-color: rgba(14, 14, 170, 0.863);
+	background-color: rgb(15, 15, 15);
 	width: 100%;
 	padding: .3rem;
 	box-shadow: var(--dark-shadow);
@@ -87,7 +87,7 @@ img{
 	background: transparent;
 	border: transparent;
 	font-size: 3.2rem;
-	color: red;
+	color: rgb(4, 207, 48);
 	cursor: pointer;
 	transition: var(--transition);
 }
@@ -101,19 +101,19 @@ img{
 	transition: var(--transition);
 }
 .navbar-list--show-links{
-	height: 15rem;
+	height: 20rem;
 }
 .navbar-list__link{
 	display: block;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: 900;
 	padding: 1.6rem;
 	text-transform: capitalize;
-	color: rgb(255, 250, 250);
+	color: rgb(221, 216, 216);
 	transition: var(--transition);
 }
 .navbar-list__link:hover{
-	background: red;
+	background: green;
 	padding-left: 3.4rem;
 }
 
@@ -134,7 +134,7 @@ img{
 	.navbar-list__link:hover{
 		background: none;
 		padding-left: 1.6rem;
-		color: red;
+		color: green;
 	}
 	
 }
@@ -166,16 +166,22 @@ img{
 
 .hero-texto{
 	padding: 1.6rem;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgba(0, 0, 0, 0.829);
 }
 .hero-texto__titulo {
 	font-size: 5.2rem;
 	font-weight: 900;
-	color: red;
+	color: rgb(12, 190, 12);
 	text-transform: uppercase;
 }
-.hero-texto__titulo--linha-2{
-    color: blue;
+
+.hero-texto__descricao{
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: rgb(12, 190, 12);
+	max-width: 57rem;
+	margin: 1rem 0rem;
+
 }
 
 @media screen and (min-width: 768px){
@@ -219,8 +225,8 @@ Sobre
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 800;
-	color: rgb(21, 7, 104);
-	background-image: linear-gradient(to left, rgb(235, 255, 255), rgba(5, 47, 185, 0.938));
+	color: green;
+	background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 255, 34, 0.582));
 	margin-bottom: 1.6rem;
 }
 .sobre-texto, .compras-texto{
@@ -236,27 +242,10 @@ Sobre
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 1.2rem;
-	background-color: rgba(37, 37, 175, 0.719);
+	background-color: rgb(85, 131, 59);
 }
-.livro-link{
-margin: auto;
-text-align: center;
-border: 1px solid red;
-}
-.historia-titulo{
-    font-size: 2.6rem;
-    font-weight: 800;
-    padding: 1.6rem;
-    color: rgb(6, 6, 141);
-}
-@media  screen and (min-width: 768px){
-    .livro-link{
-        width: 30%;
-    }
-}
-
 	footer{
-		background-color: rgba(5, 47, 185, 0.938);
+		background-color: rgba(0, 128, 0, 0.938);
 		text-align: center;
 		padding: .6rem;
 		font-family: 'quadrinhos';
@@ -268,7 +257,6 @@ border: 1px solid red;
 		  line-height: 2em;
 		  padding-bottom: 1.2rem;
 		  font-weight: 700;
-          color: rgb(54, 2, 2);
           
 	  }
 	  footer a{
