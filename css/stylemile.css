@@ -90,6 +90,7 @@ img{
 	color: red;
 	cursor: pointer;
 	transition: var(--transition);
+	margin-right: 1.2rem;
 }
 .navbar-header__toggle:hover{
 	transform: scale(1.2);
@@ -234,6 +235,9 @@ Sobre
 	justify-content: space-between;
 	padding: 1.2rem;
 	background-color: rgb(201, 64, 54);
+}
+iframe{
+	margin-bottom: 1.6rem;
 }
 	footer{
 		background-color: rgba(245, 12, 12, 0.932);

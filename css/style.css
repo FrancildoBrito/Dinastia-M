@@ -90,6 +90,7 @@ img{
 	color: red;
 	cursor: pointer;
 	transition: var(--transition);
+	margin-right: 1.2rem;
 }
 .navbar-header__toggle:hover{
 	transform: scale(1.2);
@@ -241,7 +242,7 @@ Sobre
 .livro-link{
 margin: auto;
 text-align: center;
-border: 1px solid red;
+margin-bottom: 1.2rem;
 }
 .historia-titulo{
     font-size: 2.6rem;
